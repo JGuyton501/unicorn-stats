@@ -83,9 +83,9 @@ def grabRow(filename,index):
 	return column
 
 #Grab ethPrice and txCount from the .csv files
-ethPrice = grabRow('export-EtherPrice.csv', 2)
+ethPrice = grabRow('eth_data/original_data/export-EtherPrice.csv', 2)
 
-txCount =grabRow('export-TxGrowth.csv', 2)
+txCount =grabRow('eth_data/original_data/export-TxGrowth.csv', 2)
 
 
 #Setup days for each entry
